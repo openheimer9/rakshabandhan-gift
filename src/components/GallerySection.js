@@ -14,9 +14,9 @@ const GallerySection = ({ isActive, photos, onPhotoClick }) => {
     <section className={`section ${isActive ? 'active' : ''}`}>
       <div className="gallery-container">
       
-        <h2 className="section-title">Panda's Photo Gallery</h2>
+        <h2 className="section-title">Panda's Gallery</h2>
         <p className="section-subtitle">
-          {photos.length > 0 ? `${photos.length} beautiful moments` : 'No photos uploaded yet'}
+          {photos.length > 0 ? `${photos.length} beautiful moments of Jinal's Rakshabandhan Gift` : 'No photos uploaded yet'}
         </p>
         
         {photos.length > 0 ? (
